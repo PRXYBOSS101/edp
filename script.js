@@ -13,7 +13,7 @@ async function try_mirror(mirror) {
 }
 
 async function init() {
-  if (window.location.hostname == "edpuzzle.hs.vc") {
+  if (window.location.hostname == "edp-one.vercel.app") {
     alert(
       "To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment."
     );
